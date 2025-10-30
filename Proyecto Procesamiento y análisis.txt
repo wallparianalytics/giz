@@ -1,0 +1,114 @@
+Proyecto: Procesamiento y análisis de la información asociada a las Inversiones Públicas
+
+Programa: Buena Gobernanza Territorial – GIZ Perú
+Consultor: Jonatan Silvester Figueroa Gil
+Periodo: 28 oct 2025 – 16 mar 2026
+
+1️⃣ Propósito de la reunión
+
+Alinear objetivos, alcance y resultados del estudio con GIZ y contrapartes técnicas (MEF, MTC, MINEM, MINCETUR).
+
+Validar la metodología integrada (estadística + geoespacial + econométrica).
+
+Aprobar el plan de trabajo, cronograma y productos (P1 y P2).
+
+Establecer la gobernanza del proyecto, canales de comunicación y calendario de validaciones.
+
+2️⃣ Contexto
+
+La inversión pública se prioriza aún por brechas básicas sin enfoque territorial.
+
+El MTC definió corredores logísticos nacionales.
+
+Se requiere identificar corredores mineros y turísticos complementarios, capaces de atraer inversión privada y articular desarrollo regional.
+
+3️⃣ Objetivo general
+
+Elaborar un análisis estadístico y geoespacial que permita identificar corredores mineros y turísticos complementarios a los del MTC, mediante rutinas reproducibles de procesamiento de datos y criterios de competitividad territorial.
+
+4️⃣ Objetivos específicos
+
+Recopilar, depurar y estandarizar bases estadísticas, económicas y geoespaciales.
+
+Definir criterios metodológicos para priorización de corredores.
+
+Evaluar potencial de aglomeración y atracción de capital privado.
+
+Desarrollar algoritmos reproducibles (Python/R).
+
+Elaborar mapas SIG y visualizaciones interactivas.
+
+5️⃣ Enfoque metodológico integrado
+Componente	Metodología / herramienta	Resultado esperado
+Estadístico-econométrico	Normalización de variables, correlaciones, modelos de clusters K-means / DBSCAN, índices compuestos (IPC).	Identificación de tipologías de corredores.
+Geoespacial	Buffers 5 km, análisis de accesibilidad, LISA / Moran’s I, mapas SIG.	Mapas temáticos y capas priorizadas.
+Datos y reproducibilidad	Pipeline ETL, control QA, versión Git, documentación metadata.	Repositorio digital reproducible.
+Transversalización	Enfoque de género e interculturalidad – criterios transformadores e interseccionales.	Indicadores desagregados por territorio y grupo.
+6️⃣ Estructura de trabajo y entregables
+Producto	Contenido principal	Fecha
+P1 – Plan de Trabajo y Avance Inicial	Cronograma detallado, rutinas base (Python/R), primeros mapas preliminares, definición de criterios de priorización.	17 nov 2025
+P2 – Informe Final	Base integrada con metadatos, mapas SIG definitivos, repositorio reproducible y documentación técnica.	30 ene 2026
+Cierre contractual	Validación final GIZ + liquidación (S/ 24 500).	16 mar 2026
+7️⃣ Cronograma detallado de actividades
+
+(Integrado con las fases de tu base de conocimiento y los TOR GIZ)
+
+Fase / Actividad	Periodo	Producto / Resultado
+F1 – Inicio y planificación
+• Reunión Kick-off (GIZ BGT, MEF, MTC).
+• Revisión de propuesta conceptual GIZ.
+• Inventario de bases INEI, MEF, MINEM, MINCETUR, MTC.
+• Diseño de plantilla de metadatos y estructura Git.
+• Definición de criterios técnicos de priorización.
+• Primeras rutinas ETL y QA.	28 oct – 17 nov 2025	Producto 1 – Plan de trabajo y avance inicial.
+F2 – Procesamiento y análisis estadístico-geoespacial
+• Depuración de bases y generación de indicadores de productividad y conectividad.
+• Modelos econométricos (efecto de inversión pública sobre actividad regional).
+• Clusterización (K-means, DBSCAN).
+• Cálculo IPC y mapas SIG preliminares.	nov – dic 2025	Resultados intermedios y mapas preliminares.
+F3 – Validación técnica y ajustes
+• Validación interna GIZ.
+• Taller técnico con MEF, MTC, MINEM, MINCETUR, GORE.
+• Ajustes metodológicos y definición de corredores priorizados.	ene 2026	Producto 2 – Informe Final preliminar.
+F4 – Cierre y transferencia
+• Consolidación de base final y repositorio digital.
+• Documentación técnica y manual de uso.
+• Entrega y aprobación final GIZ.
+• Lecciones aprendidas y propuesta de replicabilidad.	feb – mar 2026	Informe de cierre y transferencia.
+8️⃣ Roles y coordinación
+Actor / Institución	Rol principal
+GIZ – Proyecto BGT	Supervisión técnica y validación de productos (Jessica Ocsas).
+Consultor (J. Figueroa)	Diseño metodológico, procesamiento y análisis de datos, coordinación técnica.
+MEF / MTC / MINEM / MINCETUR	Contrapartes sectoriales – validación técnica y acceso a bases.
+GORE y actores regionales	Validación territorial de corredores priorizados.
+9️⃣ Gestión de calidad y datos
+
+Plan de Gestión de Datos (PGD): confidencialidad, backup, versionado, QA.
+
+Control de calidad metodológico: validación cruzada de indicadores y mapas.
+
+Conservación documental por 10 años conforme a CCG locales GIZ.
+
+Propiedad intelectual: derechos de autor cedidos a GIZ.
+
+🔟 Riesgos y mitigación
+Riesgo	Estrategia de mitigación
+Retrasos en acceso a datos oficiales	Plan de contingencia con fuentes alternativas (INEI, Open Data MEF).
+Inconsistencias de información territorial	QA automático + verificación manual regional.
+Cambios metodológicos por contrapartes	Comité técnico quincenal para aprobación de ajustes.
+Eventos de fuerza mayor (bioseguridad)	Aplicación de cláusulas CCG y ajuste de plazos.
+11️⃣ Próximos pasos
+
+Validar el Plan de Trabajo (P1 – 17 nov).
+
+Configurar repositorio reproducible y diccionario de datos.
+
+Planificar taller técnico de validación (ene 2026).
+
+Entregar Informe Final (30 ene 2026).
+
+Cierre y liquidación (16 mar 2026).
+
+12️⃣ Cierre del Kick-off
+
+“Este proyecto permitirá a la GIZ y al MEF contar con evidencia estadística y geoespacial de alta calidad para orientar las inversiones públicas hacia territorios con mayor potencial productivo y turístico, garantizando transparencia, reproducibilidad y enfoque territorial.”
